@@ -1,0 +1,46 @@
+17954528
+Overall:   0%|                                                                                                               | 0/20 [00:00<?, ?it/s/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:52: RuntimeWarning: divide by zero encountered in true_divide
+  t[0, 0] = float(res[1]) / w
+/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:53: RuntimeWarning: divide by zero encountered in true_divide
+  t[1, 1] = float(res[0]) / h
+/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:54: RuntimeWarning: divide by zero encountered in true_divide
+  t[0, 2] = res[1] * (-float(center[0]) / w + .5)
+/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:55: RuntimeWarning: divide by zero encountered in true_divide
+  t[1, 2] = res[0] * (-float(center[1]) / h + .5)
+[  1/ 20] lr=1.00e-03 train_loss=0.0011 train_acc=5.33 valid_loss=0.0016 valid_acc=12.01                                                            
+Overall:   5%|#####                                                                                               | 1/20 [07:40<2:25:56, 460.89s/it/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:52: RuntimeWarning: divide by zero encountered in true_divide
+  t[0, 0] = float(res[1]) / w
+/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:53: RuntimeWarning: divide by zero encountered in true_divide
+  t[1, 1] = float(res[0]) / h
+/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:54: RuntimeWarning: divide by zero encountered in true_divide
+  t[0, 2] = res[1] * (-float(center[0]) / w + .5)
+/home/santosh.sanjeev/CV-Lab/CV-assignment4-final/src/stacked_hourglass/utils/transforms.py:55: RuntimeWarning: divide by zero encountered in true_divide
+  t[1, 2] = res[0] * (-float(center[1]) / h + .5)
+[  2/ 20] lr=1.00e-03 train_loss=0.0007 train_acc=13.08 valid_loss=0.0010 valid_acc=19.03                                                           
+[  3/ 20] lr=1.00e-03 train_loss=0.0006 train_acc=18.58 valid_loss=0.0006 valid_acc=4.52                                                            
+[  4/ 20] lr=1.00e-03 train_loss=0.0005 train_acc=20.63 valid_loss=0.0005 valid_acc=29.53                                                           
+[  5/ 20] lr=1.00e-03 train_loss=0.0004 train_acc=32.92 valid_loss=0.0004 valid_acc=45.15                                                           
+[  6/ 20] lr=1.00e-03 train_loss=0.0004 train_acc=44.64 valid_loss=0.0004 valid_acc=55.57                                                           
+[  7/ 20] lr=1.00e-03 train_loss=0.0004 train_acc=52.64 valid_loss=0.0004 valid_acc=60.61                                                           
+[  8/ 20] lr=1.00e-03 train_loss=0.0004 train_acc=57.22 valid_loss=0.0003 valid_acc=63.44                                                           
+[  9/ 20] lr=1.00e-03 train_loss=0.0004 train_acc=61.14 valid_loss=0.0003 valid_acc=66.42                                                           
+[ 10/ 20] lr=1.00e-03 train_loss=0.0003 train_acc=63.86 valid_loss=0.0003 valid_acc=68.43                                                           
+[ 11/ 20] lr=1.00e-03 train_loss=0.0003 train_acc=65.45 valid_loss=0.0003 valid_acc=70.80                                                           
+[ 12/ 20] lr=1.00e-03 train_loss=0.0003 train_acc=67.25 valid_loss=0.0003 valid_acc=72.08                                                           
+[ 13/ 20] lr=1.00e-03 train_loss=0.0003 train_acc=68.99 valid_loss=0.0003 valid_acc=73.18                                                           
+[ 14/ 20] lr=1.00e-03 train_loss=0.0003 train_acc=70.04 valid_loss=0.0003 valid_acc=73.47                                                           
+[ 15/ 20] lr=1.00e-03 train_loss=0.0003 train_acc=71.25 valid_loss=0.0003 valid_acc=74.59                                                           
+[ 16/ 20] lr=1.00e-04 train_loss=0.0003 train_acc=73.91 valid_loss=0.0003 valid_acc=76.92                                                           
+[ 17/ 20] lr=1.00e-04 train_loss=0.0003 train_acc=75.01 valid_loss=0.0003 valid_acc=77.40                                                           
+[ 18/ 20] lr=1.00e-05 train_loss=0.0003 train_acc=75.34 valid_loss=0.0003 valid_acc=77.49                                                           
+[ 19/ 20] lr=1.00e-05 train_loss=0.0003 train_acc=75.47 valid_loss=0.0003 valid_acc=77.58                                                           
+[ 20/ 20] lr=1.00e-05 train_loss=0.0003 train_acc=75.75 valid_loss=0.0003 valid_acc=77.52                                                           
+Overall: 100%|###################################################################################################| 20/20 [2:30:41<00:00, 454.75s/it]
+
+
+
+Final validation PCKh scores:
+
+  Head    Shoulder    Elbow    Wrist    Hip    Knee    Ankle    Mean
+------  ----------  -------  -------  -----  ------  -------  ------
+ 93.79       90.13    81.13    74.01  78.62   71.29    64.95   79.33
